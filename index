@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hors Satan</title>
+  <style>
+    /* Reset minimale */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      background: #ffffff;
+      color: #000000;
+      padding: 20px;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 80px;
+    }
+
+    .header-left {
+      max-width: 70%;
+    }
+
+    .header-right {
+      text-align: left;
+      max-width: 300px;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .section {
+      margin-bottom: 40px;
+      max-width: 600px;
+    }
+
+    .section-title {
+      margin-bottom: 10px;
+    }
+
+    .exhibition {
+      margin-bottom: 6px;
+    }
+
+    /* Layout generale simile allo screenshot */
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%;
+    }
+
+    .left-column {
+      max-width: 600px;
+    }
+
+    .right-column {
+      max-width: 320px;
+    }
+
+    /* Responsive */
+    @media (max-width: 800px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .right-column {
+        margin-top: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="header-left">
+      Hors Satan Via Mazzanti 4, Verona
+      <a href="mailto:mail@horssatan.it">mail@horssatan.it</a>
+      +39 3911770040
+      Open Thu–Sat 12–18 and by Appointment
+      <a href="#">Newsletter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- Colonna sinistra -->
+    <div class="left-column">
+      <div class="section">
+        <div class="section-title">Past Exhibitions:</div>
+
+        <div class="exhibition">
+          Helmut Federle <span class="italic">Paintings</span>
+          November 6 – December 19, 2025
+        </div>
+
+        <div class="exhibition">
+          Cathy Wilkes
+          <span class="italic">
+            What We Are Is Just Epitomes of the Same and You Should Never Come to the Monster Town
+          </span>
+          September 9 – October 28, 2025
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Colonna destra -->
+    <div class="right-column">
+      <div class="section">
+        <div>Current:</div>
+
+        <div>Michael Snow</div>
+
+        <div class="italic">La région centrale</div>
+
+        <div>January 8 – March 24, 2026</div>
+
+        <div class="italic">Opening January 8, 5–9 pm</div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
