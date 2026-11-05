@@ -1,23 +1,10 @@
-<html lang="it"><head>
+<html lang="it">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hors Satan</title>
 
 <style>
-
-  @font-face {
-  font-family: Times;
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-  @font-face {
-  font-family: Times;
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
 
 * {
   margin: 0;
@@ -26,7 +13,7 @@
 }
 
 body {
-  font-family: Times;
+  font-family: "Times New Roman", Times, serif;
   font-size: 15px;
   line-height: 1.2;
   background: #ffffff;
@@ -40,33 +27,32 @@ a {
 }
 
 a:hover {
-  color: #777;   /* diventa grigio al hover */
+  color: #777;
   text-decoration: none;
 }
-
 
 /* AREA CENTRALE */
 .center-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 2em;      /* due rientri dal blocco sopra */
-  margin-bottom: 2em;   /* due rientri dal blocco sotto */
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 /* RIQUADRO GRANDE */
 .current-box {
-  width: 520px;              /* grande riquadro */
-  min-height: 100px;        /* altezza ampia */
+  width: 520px;
+  min-height: 100px;
   display: flex;
-  align-items: center;      /* centra verticalmente */
-  justify-content: center;  /* centra orizzontalmente */
+  align-items: center;
+  justify-content: center;
 }
 
-/* TESTO dentro il riquadro */
+/* TESTO DENTRO IL RIQUADRO */
 .current-content {
-  display: inline-block;              /* larghezza esattamente quanto il testo */
-  text-align: left;         /* giustificato a sinistra */
+  display: inline-block;
+  text-align: left;
 }
 
 .section-title {
@@ -77,17 +63,17 @@ a:hover {
   font-style: italic;
 }
 
-/* Past exhibitions */
+/* PAST EXHIBITIONS */
 .past {
   width: 1000px;
-  margin-top: 2em;      /* distanza minima dal blocco current */
+  margin-top: 2em;
 }
 
 .exhibition {
   margin-bottom: 4px;
 }
 
-/* Mobile */
+/* MOBILE */
 @media (max-width: 700px) {
 
   .current-box {
@@ -115,8 +101,7 @@ a:hover {
   <a href="#">Instagram</a>
 </div>
 
-
-<!-- BLOCCO CENTRALE CON RIQUADRO GRANDE -->
+<!-- BLOCCO CENTRALE -->
 <div class="center-wrapper">
 
   <div class="current-box">
@@ -127,29 +112,27 @@ a:hover {
       <div class="italic">La région centrale</div>
       <div>January 8–March 24, 2026</div>
       <div><strong>Opening January 8, 5–9 pm</strong>
-      <img src:"https://www.artforum.com/wp-content/uploads/2013/03/article_large-14.jpg"></div>
+      <img src:"https:="" www.artforum.com="" wp-content="" uploads="" 2013="" 03="" article_large-14.jpg"=""></div>
     </div>
 
   </div>
 
 </div>
 
-
-<!-- Past exhibitions -->
+<!-- PAST EXHIBITIONS -->
 <div class="past">
 
   <div>Past Exhibitions:</div>
 
   <div>
-    Helmut Federle <span class="italic">Paintings</span> November 6–December 19, 2025</div>
+    Helmut Federle <span class="italic">Paintings</span> November 6–December 19, 2025
+  </div>
 
   <div>
     Cathy Wilkes <span class="italic">Epitomes of the Same</span> September 9–October 28, 2025
-    </div>
+  </div>
 
 </div>
 
-
-
-
-</body></html>
+</body>
+</html>
